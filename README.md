@@ -40,6 +40,7 @@ $ yarn add encrypted-local-storage
   * AES-unlimited encryption local storage service  with key
   * AES-unlimited decryption local storage service  with key
   * well secure AES Encryption
+  * You can store string array
 
 
 ------
@@ -63,7 +64,13 @@ LocalStorageService.getItem("userName","passCode"); //get Cookie (key,encrypt_ke
 
  
 ```
+## Note
+```js
+LocalStorageService.getItem() //=>returns  value string
+// (If encrypted key is wrong => "")
+// (cookie is not available   => ")
 
+```
 
 ## Browser Support
 
