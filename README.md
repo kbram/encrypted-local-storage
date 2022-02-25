@@ -1,6 +1,6 @@
 # encrypted-local-storage
 
-Simply use aes encrypted cookie 
+Simply use aes encrypted Local storage 
 
 ## framework support
 
@@ -52,15 +52,15 @@ import LocalStorageService from "encrypted-local-storage";
 
 //WithoutKey
 
-LocalStorageService.setItem("userName", "Bavaram"); //set Cookie  (key,value)
-LocalStorageService.getItem("userName"); //get Cookie (key)
+LocalStorageService.setItem("userName", "Bavaram"); //set Local storage  (key,value)
+LocalStorageService.getItem("userName"); //get Local storage (key)
 
 
 //WithKey
 // Note: secretKey can be unlimited letters
 
-LocalStorageService.setItem("userName", "Bavaram","passCode"); //set Cookie  (key,value,encrypt_key)
-LocalStorageService.getItem("userName","passCode"); //get Cookie (key,encrypt_key)
+LocalStorageService.setItem("userName", "Bavaram","passCode"); //set Local storage  (key,value,encrypt_key)
+LocalStorageService.getItem("userName","passCode"); //get Local storage (key,encrypt_key)
 
  
 ```
@@ -68,7 +68,7 @@ LocalStorageService.getItem("userName","passCode"); //get Cookie (key,encrypt_ke
 ```js
 LocalStorageService.getItem() //=>returns  value string
 // (If encrypted key is wrong => "")
-// (cookie is not available   => ")
+// (Local storage is not available   => ")
 
 ```
 
