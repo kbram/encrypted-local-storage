@@ -50,7 +50,7 @@
 <!-- PROJECT FEATHERS -->
 ## About Project
 
-This is fully secure cookies with AES Encryption. You can store encrypted cookie. This is specially you can use unlimited length key and store unlimited length of string value in cookie. Encrypt Json array also storable. It's have default key value and you can change own key value to store.
+This is fully secure local storage with AES Encryption. You can store encrypted local storage. This is specially you can use unlimited length key and store unlimited length of string value in local storage. Encrypt Json array also storable. It's have default key value and you can change own key value to store.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
